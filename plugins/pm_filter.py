@@ -113,16 +113,13 @@ async def pm_text(bot, message):
     user = message.from_user.first_name
     user_id = message.from_user.id
     if content.startswith("/") or content.startswith("#"): return  # ignore commands and hashtags
-    await message.reply_text("<b>ഇവിടെ ചോദിച്ചാൽ സിനിമ കിട്ടില്ല ഗ്രൂപ്പിൽ മാത്രം സിനിമ ചോദിക്കുക</b>",
-                             reply_markup=InlineKeyboardMarkup(
-                                 [[
-                                     InlineKeyboardButton('🔰 JOIN ❗️C H A N N E L 🔰', url='https://t.me/+gO_mmwPaZ_00YTg1')
-                                 ]]
-                             )
-                            )                     
+    await message.reply_text(
+         text=f"<b>ഇവിടെ ചോദിച്ചാൽ സിനിമ കിട്ടില്ല ഗ്രൂപ്പിൽ മാത്രം സിനിമ ചോദിക്കുക..!!\n\nGROUP OR BOT ANY PROMBLEM OR BUGS CONTACT GROUP ADMIN = @NewTen10_Bot!!!</b>",   
+         reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("📝ᴊᴏɪɴ ᴛᴏ ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ ", url=f"https://t.me/+gO_mmwPaZ_00YTg1")]])
+    )
     await bot.send_message(
         chat_id=LOG_CHANNEL,
-        text=f"<b>#PM_MSG\n\nName : {user}\n\nID : {user_id}\n\nMessage : {content}</b>"
+        text=f"<b>#𝐏𝐌_𝐌𝐒𝐆\n\nNᴀᴍᴇ : {user}\n\nID : {user_id}\n\nMᴇssᴀɢᴇ : {content}</b>"
     )
 
 @Client.on_callback_query(filters.regex(r"^next"))
