@@ -23,10 +23,10 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton('🖥 𝗡𝗘𝗪 𝗢𝗧𝗧 𝗨𝗣𝗗𝗔𝗧𝗘𝗦 🖥', url=f'https://t.me/OTT_ARAKAL_THERAVAD_MOVIESS')
+                InlineKeyboardButton('🖥 𝗡𝗘𝗪 𝗢𝗧𝗧 𝗨𝗣𝗗𝗔𝗧𝗘𝗦 🖥', url=f'https://t.me/OTT_UPDATES_MALLU_MOVIES_HUB')
             ],
             [
-                InlineKeyboardButton('⭕️𝗚𝗘𝗧 𝗢𝗨𝗥 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 𝗟𝗜𝗡𝗞𝗦 ⭕️', url="https://t.me/ARAKAL_THERAVAD_GROUP_LINKS"),
+                InlineKeyboardButton('⭕️𝗚𝗘𝗧 𝗢𝗨𝗥 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 𝗟𝗜𝗡𝗞𝗦 ⭕️', url="https://t.me/MALLU_MOVIES_HUB_GROUP_LINKS"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -47,9 +47,9 @@ async def start(client, message):
             ],[
             InlineKeyboardButton("👥 𝗚𝗥𝗢𝗨𝗣 - 𝟯", url=f"https://t.me/mallumovieshub02")
             ],[
-            InlineKeyboardButton("🖥 𝗡𝗘𝗪 𝗢𝗧𝗧 𝗨𝗣𝗗𝗔𝗧𝗘𝗦 🖥", url="https://t.me/mallumovieshubchnannel")
+            InlineKeyboardButton("🖥 𝗡𝗘𝗪 𝗢𝗧𝗧 𝗨𝗣𝗗𝗔𝗧𝗘𝗦 🖥", url="https://t.me/OTT_UPDATES_MALLU_MOVIES_HUB")
             ],[
-            InlineKeyboardButton("⭕️𝗚𝗘𝗧 𝗢𝗨𝗥 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 𝗟𝗜𝗡𝗞𝗦 ⭕️", url="https://t.me/mallumovieshubchannel02")
+            InlineKeyboardButton("⭕️𝗚𝗘𝗧 𝗢𝗨𝗥 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 𝗟𝗜𝗡𝗞𝗦 ⭕️", url="https://t.me/MALLU_MOVIES_HUB_GROUP_LINKS")
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
       #  m=await message.reply_sticker("CAACAgUAAxkBAAINdmL9uWnC3ptj9YnTjFU4YGr5dtzwAAIEAAPBJDExieUdbguzyBAeBA") 
