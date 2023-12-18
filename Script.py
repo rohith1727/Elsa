@@ -291,11 +291,11 @@ Elsa
 
 <b>I'ᴍ <a href=https://t.me/{}>{}</a>Yᴏᴜ Cᴀɴ Cᴀʟʟ Mᴇ Aꜱ Amigo 🫶</b>
 
-<b>Exᴄʟᴜꜱɪᴠᴇʟʏ Mᴀᴅᴇ Tʜɪꜱ Bᴏᴛ Fᴏʀ @Mallu Movies Hub</b>
+<b>Exᴄʟᴜꜱɪᴠᴇʟʏ Mᴀᴅᴇ Tʜɪꜱ Bᴏᴛ Fᴏʀ @MALLU_MOVIES_HUB_GROUP01</b>
 
-<b>📌 Sᴜᴘᴘᴏʀᴛ : @MMH OTT UPDATES</b>
+<b>📌 Sᴜᴘᴘᴏʀᴛ : @OTT_UPDATES_MALLU_MOVIES_HUB</b>
 
-<b>🍂 Oᴡɴᴇʀ : @NewTen</b>"""
+<b>🍂 Oᴡɴᴇʀ : @NewTen10_Bot</b>"""
 
     IMDB_TEMPLATE_TXT = """
 <b>🔖 ᴛɪᴛʟᴇ :<a href={url}>{title}</a>
